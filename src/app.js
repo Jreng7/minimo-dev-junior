@@ -8,8 +8,8 @@ class App {
     }
 
     middlawares(){
-        
+        this.server.use()
     }
 }
 
-export default new App().server
+export default new App().server;
