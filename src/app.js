@@ -18,7 +18,8 @@ class App {
             res.json({ hello: 'apenas teste'})
         })
 
-
         this.app.use(routes)
     }
 }
+
+export default new App();

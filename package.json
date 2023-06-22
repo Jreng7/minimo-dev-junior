@@ -2,6 +2,7 @@
   "name": "minimo-dev-junior",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/Jreng7/minimo-dev-junior.git",
   "author": "Josué R S Jacinto <jr.waydev@gmail.com>",
   "license": "MIT",
