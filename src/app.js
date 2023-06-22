@@ -12,7 +12,7 @@ class App {
         this.app.use(cors);
     }
     router(){
-
+        
     }
 }
 
