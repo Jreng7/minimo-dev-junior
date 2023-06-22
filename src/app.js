@@ -13,6 +13,12 @@ class App {
     }
     routes() {
         const routes = new Router();
+
+        routes.get('/hello', (req, res) => {
+            res.json({ hello: 'apenas teste'})
+        })
+
+
         this.app.use(routes)
     }
 }
